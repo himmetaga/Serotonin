@@ -1,0 +1,25 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+prototypes/TouchGarden/Serotonin.xcodeproj/
+prototypes/TouchGarden/build/
+godot/.godot/
+art/source/*.blend1
+art/source/*.blend2
+art/previews/*.exr
+art/build.log
+art/previews/*.log
+art/tools/__pycache__/
+
+# Local credentials and signing material must never be uploaded.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision

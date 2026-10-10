@@ -1,0 +1,8 @@
+{
+	"draw_calls_snapshot": 123,
+	"median_frame_interval_ms": 17.718,
+	"note": "Windows wall-clock frame intervals include frame pacing; not GPU time or iOS evidence.",
+	"p95_frame_interval_ms": 23.829,
+	"rendered_primitives_snapshot": 146419,
+	"samples": 120
+}

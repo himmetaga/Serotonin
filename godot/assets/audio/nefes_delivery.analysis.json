@@ -1,0 +1,11 @@
+{
+	"channels": 1,
+	"dc_mean": 0.00000698409653574972,
+	"pcm_bytes": 176400,
+	"peak": 0.36151123046875,
+	"rate_hz": 22050,
+	"rms": 0.0517643140262207,
+	"seconds": 4.0,
+	"seed": 1701,
+	"source": "Original deterministic synthesis; temporary window/air sketch, no human recording."
+}

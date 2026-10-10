@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "membrane_room",
+  "status": "authored_first_pass",
+  "path": "godot/assets/models/membrane_room.glb",
+  "source_path": "art/source/membrane_room.blend",
+  "technical": {
+    "triangles": 21276,
+    "triangle_budget": 22000,
+    "within_budget": true,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "materials": [
+      "Pearl_Coral_Satin",
+      "Warm_Pearl_Satin",
+      "Deep_Teal_Satin"
+    ],
+    "blender_bounds_xyz": [
+      [
+        -10.5564,
+        9.8728
+      ],
+      [
+        -5.7762,
+        8.5
+      ],
+      [
+        -3.8816,
+        9.3734
+      ]
+    ],
+    "uv_meshes": 16,
+    "mesh_parts": 16,
+    "playable_top_blender_z": 0.0,
+    "playable_footprint_xy_m": [
+      [
+        -7.0,
+        7.0
+      ],
+      [
+        -3.5,
+        3.5
+      ]
+    ],
+    "godot_axis_conversion": "Blender Z-up/front -Y to glTF/Godot Y-up/front +Z"
+  },
+  "source": {
+    "kind": "authored_procedural_mesh",
+    "tool": "5.2.1 LTS",
+    "creator": "Serotonin project / Blender Python",
+    "external_assets": false,
+    "license": "Project-authored; no third-party model or texture content.",
+    "concept_reference": "art/concepts/nefes-v2.png",
+    "recipe": "art/tools/build_membrane_room.py"
+  },
+  "verification": {
+    "source_and_glb_written": true,
+    "technical_checks_passed": true,
+    "rendered": false,
+    "godot_import_reviewed": false
+  }
+}

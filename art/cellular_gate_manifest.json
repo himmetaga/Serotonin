@@ -1,0 +1,51 @@
+{
+  "id": "cellular_gate",
+  "status": "visual_target_not_final_art",
+  "path": "godot/assets/models/cellular_gate.glb",
+  "technical": {
+    "triangles": 16196,
+    "triangle_budget": 18000,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0
+  },
+  "triangles": 16196,
+  "triangle_budget": 18000,
+  "parts": [
+    {
+      "part": "Ivory_Ribs",
+      "triangles": 4024,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "part": "Peach_Web",
+      "triangles": 12012,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "part": "Thin_Membrane",
+      "triangles": 160,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    }
+  ],
+  "open_cells": 70,
+  "closed_membrane_cells": 6,
+  "materials": 3,
+  "texture_bytes": 0,
+  "intersections": "Closed swept ribs overlap at junctions; not boolean-unioned.",
+  "source": "art/source/cellular_gate.blend",
+  "runtime": "godot/assets/models/cellular_gate.glb",
+  "recipe": "art/tools/build_cellular_gate.py",
+  "tool": "5.2.1 LTS",
+  "provenance": "Project-authored bpy geometry; no external assets.",
+  "verification": {
+    "source_topology": true,
+    "export_reviewed": true,
+    "runtime_reviewed": true,
+    "runtime_capture": "art/previews/cellular-gate-runtime.png",
+    "visual_approval": "pending; geometry experiment, not final art",
+    "device_performance": "not measured"
+  }
+}

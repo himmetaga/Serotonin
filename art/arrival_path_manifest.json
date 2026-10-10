@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "arrival_path",
+  "status": "authored_blockout",
+  "path": "godot/assets/models/arrival_path.glb",
+  "source_path": "art/source/arrival_path.blend",
+  "technical": {
+    "triangles": 8212,
+    "triangle_budget": 9000,
+    "materials": 3,
+    "mesh_parts": 3,
+    "nonmanifold_edges": 0,
+    "degenerate_faces": 0,
+    "uv_meshes": 3
+  },
+  "source": {
+    "kind": "authored_procedural_mesh",
+    "tool": "5.2.1 LTS",
+    "recipe": "art/tools/build_arrival_path.py",
+    "external_assets": false,
+    "license": "Project-authored; no third-party assets."
+  }
+}

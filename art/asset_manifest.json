@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "art_direction_brief": "art/ART_DIRECTION.md",
+  "assets": [
+    {
+      "id": "ilmek",
+      "path": "godot/assets/models/ilmek.glb",
+      "source_path": "art/source/ilmek.blend",
+      "status": "authored_first_pass",
+      "technical": {
+        "triangles": 3832,
+        "degenerate_faces": 0,
+        "nonmanifold_edges": 0,
+        "materials": [
+          "Gold_E8BD64",
+          "Ink_102E34",
+          "Pearl_E8E1D5"
+        ],
+        "dimensions_blender": [
+          1.8303,
+          0.7541,
+          1.435
+        ],
+        "uv_meshes": 12,
+        "mesh_parts": 12,
+        "rig": false,
+        "lod": false,
+        "overlap_policy": "Separate closed parts may overlap intentionally; not a boolean-unioned printable mesh.",
+        "budget": 6000,
+        "within_budget": true
+      },
+      "source": {
+        "kind": "authored_procedural_mesh",
+        "tool": "5.2.1 LTS",
+        "creator": "Serotonin project / Blender Python",
+        "external_assets": false,
+        "license": "Project-authored; no third-party model or texture content.",
+        "recipe": "art/tools/build_assets.py + art/tools/props.py"
+      },
+      "verification": {
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "technical_checks_passed": true,
+        "approved_by": ""
+      }
+    },
+    {
+      "id": "nefes",
+      "path": "godot/assets/models/nefes.glb",
+      "source_path": "art/source/nefes.blend",
+      "status": "authored_first_pass",
+      "technical": {
+        "triangles": 576,
+        "degenerate_faces": 0,
+        "nonmanifold_edges": 0,
+        "materials": [
+          "Pearl_E8E1D5.001"
+        ],
+        "dimensions_blender": [
+          0.6615,
+          0.7003,
+          0.65
+        ],
+        "uv_meshes": 0,
+        "mesh_parts": 1,
+        "rig": false,
+        "lod": false,
+        "overlap_policy": "Separate closed parts may overlap intentionally; not a boolean-unioned printable mesh.",
+        "budget": 2000,
+        "within_budget": true
+      },
+      "source": {
+        "kind": "authored_procedural_mesh",
+        "tool": "5.2.1 LTS",
+        "creator": "Serotonin project / Blender Python",
+        "external_assets": false,
+        "license": "Project-authored; no third-party model or texture content.",
+        "recipe": "art/tools/build_assets.py + art/tools/props.py"
+      },
+      "verification": {
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "technical_checks_passed": true,
+        "approved_by": ""
+      }
+    },
+    {
+      "id": "kiskac",
+      "path": "godot/assets/models/kiskac.glb",
+      "source_path": "art/source/kiskac.blend",
+      "status": "authored_first_pass",
+      "technical": {
+        "triangles": 2564,
+        "degenerate_faces": 0,
+        "nonmanifold_edges": 0,
+        "materials": [
+          "Coral_D99689.002",
+          "Gold_E8BD64.002",
+          "Ink_102E34.002"
+        ],
+        "dimensions_blender": [
+          2.2355,
+          1.0863,
+          1.3
+        ],
+        "uv_meshes": 7,
+        "mesh_parts": 7,
+        "rig": false,
+        "lod": false,
+        "overlap_policy": "Separate closed parts may overlap intentionally; not a boolean-unioned printable mesh.",
+        "budget": 8000,
+        "within_budget": true
+      },
+      "source": {
+        "kind": "authored_procedural_mesh",
+        "tool": "5.2.1 LTS",
+        "creator": "Serotonin project / Blender Python",
+        "external_assets": false,
+        "license": "Project-authored; no third-party model or texture content.",
+        "recipe": "art/tools/build_assets.py + art/tools/props.py"
+      },
+      "verification": {
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "technical_checks_passed": true,
+        "approved_by": ""
+      }
+    },
+    {
+      "id": "garden",
+      "path": "godot/assets/models/garden.glb",
+      "source_path": "art/source/garden.blend",
+      "status": "authored_first_pass",
+      "technical": {
+        "triangles": 4192,
+        "degenerate_faces": 0,
+        "nonmanifold_edges": 0,
+        "materials": [
+          "Coral_D99689.003",
+          "Gold_E8BD64.003",
+          "Petrol_244B50.003"
+        ],
+        "dimensions_blender": [
+          17.4901,
+          10.67,
+          0.8
+        ],
+        "uv_meshes": 18,
+        "mesh_parts": 19,
+        "rig": false,
+        "lod": false,
+        "overlap_policy": "Separate closed parts may overlap intentionally; not a boolean-unioned printable mesh.",
+        "budget": 12000,
+        "within_budget": true
+      },
+      "source": {
+        "kind": "authored_procedural_mesh",
+        "tool": "5.2.1 LTS",
+        "creator": "Serotonin project / Blender Python",
+        "external_assets": false,
+        "license": "Project-authored; no third-party model or texture content.",
+        "recipe": "art/tools/build_assets.py + art/tools/props.py"
+      },
+      "verification": {
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "technical_checks_passed": true,
+        "approved_by": ""
+      }
+    }
+  ]
+}

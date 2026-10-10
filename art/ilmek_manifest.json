@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "art_direction_brief": "art/ART_DIRECTION.md",
+  "assets": [
+    {
+      "id": "ilmek",
+      "path": "godot/assets/models/ilmek.glb",
+      "source_path": "art/source/ilmek.blend",
+      "status": "authored_first_pass",
+      "technical": {
+        "triangles": 3920,
+        "degenerate_faces": 0,
+        "nonmanifold_edges": 0,
+        "materials": [
+          "Gold_E8BD64",
+          "Ink_102E34",
+          "Pearl_E8E1D5"
+        ],
+        "dimensions_blender": [
+          1.4142,
+          0.6692,
+          1.445
+        ],
+        "uv_meshes": 13,
+        "mesh_parts": 13,
+        "rig": false,
+        "lod": false,
+        "overlap_policy": "Separate closed parts may overlap intentionally; not a boolean-unioned printable mesh.",
+        "export_mesh_groups": 1,
+        "budget": 6000,
+        "within_budget": true
+      },
+      "source": {
+        "kind": "authored_procedural_mesh",
+        "tool": "5.2.1 LTS",
+        "creator": "Serotonin project / Blender Python",
+        "external_assets": false,
+        "license": "Project-authored; no third-party model or texture content.",
+        "recipe": "art/tools/build_assets.py + art/tools/props.py"
+      },
+      "verification": {
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "technical_checks_passed": true,
+        "approved_by": ""
+      }
+    }
+  ]
+}
